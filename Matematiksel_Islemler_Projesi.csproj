@@ -56,6 +56,12 @@
     <Compile Include="ikinci_derece_denklem_ve_cozum.Designer.cs">
       <DependentUpon>ikinci_derece_denklem_ve_cozum.cs</DependentUpon>
     </Compile>
+    <Compile Include="kombinasyon_hesaplama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kombinasyon_hesaplama.Designer.cs">
+      <DependentUpon>kombinasyon_hesaplama.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnaForm.resx">
@@ -63,6 +69,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ikinci_derece_denklem_ve_cozum.resx">
       <DependentUpon>ikinci_derece_denklem_ve_cozum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kombinasyon_hesaplama.resx">
+      <DependentUpon>kombinasyon_hesaplama.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

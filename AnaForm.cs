@@ -20,5 +20,10 @@ namespace Matematiksel_Islemler_Projesi
         {
             new ikinci_derece_denklem_ve_cozum() { }.ShowDialog();
         }
+
+        private void btn_KombinasyonHesaplama_Click(object sender, EventArgs e)
+        {
+            new kombinasyon_hesaplama() { }.ShowDialog();
+        }
     }
 }

@@ -18,6 +18,7 @@ namespace Matematiksel_Islemler_Projesi
 
         private void Iki_Bilinmeyenli_Denklem_Load(object sender, EventArgs e)
         {
+            // https://mustafabukulmez.com/2021/02/08/c-ikinci-derece-denklem-cozumu-ornegi/
             txt_a.Text = "1";
             txt_b.Text = "0";
             txt_c.Text = "0";
