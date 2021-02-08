@@ -45,9 +45,9 @@ namespace Matematiksel_Islemler_Projesi
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(102, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(17, 13);
+            this.label1.Size = new System.Drawing.Size(13, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "A ";
+            this.label1.Text = "a";
             // 
             // txt_a
             // 
@@ -55,24 +55,25 @@ namespace Matematiksel_Islemler_Projesi
             this.txt_a.Name = "txt_a";
             this.txt_a.Size = new System.Drawing.Size(100, 20);
             this.txt_a.TabIndex = 1;
+            this.txt_a.Leave += new System.EventHandler(this.txt_a_Leave);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(102, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 13);
+            this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "B ";
+            this.label2.Text = "b";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(102, 80);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(14, 13);
+            this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "C";
+            this.label3.Text = "c";
             // 
             // txt_b
             // 
@@ -80,6 +81,7 @@ namespace Matematiksel_Islemler_Projesi
             this.txt_b.Name = "txt_b";
             this.txt_b.Size = new System.Drawing.Size(100, 20);
             this.txt_b.TabIndex = 4;
+            this.txt_b.Leave += new System.EventHandler(this.txt_b_Leave);
             // 
             // txt_c
             // 
@@ -87,6 +89,7 @@ namespace Matematiksel_Islemler_Projesi
             this.txt_c.Name = "txt_c";
             this.txt_c.Size = new System.Drawing.Size(100, 20);
             this.txt_c.TabIndex = 5;
+            this.txt_c.Leave += new System.EventHandler(this.txt_c_Leave);
             // 
             // list_sonuc
             // 

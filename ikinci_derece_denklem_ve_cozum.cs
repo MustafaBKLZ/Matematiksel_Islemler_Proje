@@ -18,16 +18,15 @@ namespace Matematiksel_Islemler_Projesi
 
         private void Iki_Bilinmeyenli_Denklem_Load(object sender, EventArgs e)
         {
-
+            txt_a.Text = "1";
+            txt_b.Text = "0";
+            txt_c.Text = "0";
         }
 
+        int a, b, c;
         private void btn_coz_Click(object sender, EventArgs e)
         {
             list_sonuc.Items.Clear();
-
-            int a = Convert.ToInt32(txt_a.Text);
-            int b = Convert.ToInt32(txt_b.Text);
-            int c = Convert.ToInt32(txt_c.Text);
 
             double d = (b * b) - (4 * a * c);
             if (d > 0)
@@ -49,5 +48,61 @@ namespace Matematiksel_Islemler_Projesi
                 list_sonuc.Items.Add("Sanal Kök Vardır");
             }
         }
+
+        private void txt_a_Leave(object sender, EventArgs e)
+        {
+            try
+            {
+                a = Convert.ToInt32(txt_a.Text);
+
+                if (a == 0)
+                {
+                    this.ActiveControl = txt_a;
+                    MessageBox.Show("a sayısı sıfır olamaz", "Hata!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    txt_a.BackColor = Color.White;
+                }
+            }
+            catch (FormatException)
+            {
+                txt_a.BackColor = Color.Yellow;
+                this.ActiveControl = txt_a;
+                MessageBox.Show("Bir sayı girmelisiniz", "Hata!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void txt_b_Leave(object sender, EventArgs e)
+        {
+            try
+            {
+                b = Convert.ToInt32(txt_b.Text);
+                txt_b.BackColor = Color.White;
+            }
+            catch (FormatException)
+            {
+                txt_b.BackColor = Color.Yellow;
+                this.ActiveControl = txt_b;
+                MessageBox.Show("Bir sayı girmelisiniz", "Hata!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void txt_c_Leave(object sender, EventArgs e)
+        {
+            try
+            {
+                c = Convert.ToInt32(txt_c.Text);
+                txt_c.BackColor = Color.White;
+            }
+            catch (FormatException)
+            {
+                txt_c.BackColor = Color.Yellow;
+                this.ActiveControl = txt_c;
+                MessageBox.Show("Bir sayı girmelisiniz", "Hata!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
     }
 }
