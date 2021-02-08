@@ -32,6 +32,7 @@ namespace Matematiksel_Islemler_Projesi
             this.btn_ikinci_dereceden_denklem = new System.Windows.Forms.Button();
             this.btn_KombinasyonHesaplama = new System.Windows.Forms.Button();
             this.Permutasyon_Hesaplama = new System.Windows.Forms.Button();
+            this.btn_Sayi_Tabanini_Degistirme = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ikinci_dereceden_denklem
@@ -64,11 +65,22 @@ namespace Matematiksel_Islemler_Projesi
             this.Permutasyon_Hesaplama.UseVisualStyleBackColor = true;
             this.Permutasyon_Hesaplama.Click += new System.EventHandler(this.Permutasyon_Hesaplama_Click);
             // 
+            // btn_Sayi_Tabanini_Degistirme
+            // 
+            this.btn_Sayi_Tabanini_Degistirme.Location = new System.Drawing.Point(12, 147);
+            this.btn_Sayi_Tabanini_Degistirme.Name = "btn_Sayi_Tabanini_Degistirme";
+            this.btn_Sayi_Tabanini_Degistirme.Size = new System.Drawing.Size(206, 39);
+            this.btn_Sayi_Tabanini_Degistirme.TabIndex = 2;
+            this.btn_Sayi_Tabanini_Degistirme.Text = "Sayı Tabanını Değiştirme";
+            this.btn_Sayi_Tabanini_Degistirme.UseVisualStyleBackColor = true;
+            this.btn_Sayi_Tabanini_Degistirme.Click += new System.EventHandler(this.btn_Sayi_Tabanini_Degistirme_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Sayi_Tabanini_Degistirme);
             this.Controls.Add(this.Permutasyon_Hesaplama);
             this.Controls.Add(this.btn_KombinasyonHesaplama);
             this.Controls.Add(this.btn_ikinci_dereceden_denklem);
@@ -84,6 +96,7 @@ namespace Matematiksel_Islemler_Projesi
         private System.Windows.Forms.Button btn_ikinci_dereceden_denklem;
         private System.Windows.Forms.Button btn_KombinasyonHesaplama;
         private System.Windows.Forms.Button Permutasyon_Hesaplama;
+        private System.Windows.Forms.Button btn_Sayi_Tabanini_Degistirme;
     }
 }
 

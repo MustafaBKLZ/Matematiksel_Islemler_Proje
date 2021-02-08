@@ -30,5 +30,10 @@ namespace Matematiksel_Islemler_Projesi
         {
             new Permutasyon_Hesaplama() { }.ShowDialog();
         }
+
+        private void btn_Sayi_Tabanini_Degistirme_Click(object sender, EventArgs e)
+        {
+            new Sayi_Tabanini_Degistirme() { }.ShowDialog();
+        }
     }
 }
