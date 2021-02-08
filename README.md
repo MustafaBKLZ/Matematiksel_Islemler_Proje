@@ -1,2 +1,5 @@
-# Matematiksel_Islemler_Proje
-Matematiksel Islemlerdem oluşan nir proje
+# Matematiksel İşlemler Projesi
+Matematiksel Islemlerdem oluşan bir proje
+
+- İçerdiği konular - 
+* - C# İkinci Derece Denklem Çözümü Örneği
