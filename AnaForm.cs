@@ -25,5 +25,10 @@ namespace Matematiksel_Islemler_Projesi
         {
             new kombinasyon_hesaplama() { }.ShowDialog();
         }
+
+        private void Permutasyon_Hesaplama_Click(object sender, EventArgs e)
+        {
+            new Permutasyon_Hesaplama() { }.ShowDialog();
+        }
     }
 }

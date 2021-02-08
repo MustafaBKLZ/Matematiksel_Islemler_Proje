@@ -31,6 +31,7 @@ namespace Matematiksel_Islemler_Projesi
         {
             this.btn_ikinci_dereceden_denklem = new System.Windows.Forms.Button();
             this.btn_KombinasyonHesaplama = new System.Windows.Forms.Button();
+            this.Permutasyon_Hesaplama = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ikinci_dereceden_denklem
@@ -53,11 +54,22 @@ namespace Matematiksel_Islemler_Projesi
             this.btn_KombinasyonHesaplama.UseVisualStyleBackColor = true;
             this.btn_KombinasyonHesaplama.Click += new System.EventHandler(this.btn_KombinasyonHesaplama_Click);
             // 
+            // Permutasyon_Hesaplama
+            // 
+            this.Permutasyon_Hesaplama.Location = new System.Drawing.Point(12, 102);
+            this.Permutasyon_Hesaplama.Name = "Permutasyon_Hesaplama";
+            this.Permutasyon_Hesaplama.Size = new System.Drawing.Size(206, 39);
+            this.Permutasyon_Hesaplama.TabIndex = 2;
+            this.Permutasyon_Hesaplama.Text = "Permütasyon Hesaplama";
+            this.Permutasyon_Hesaplama.UseVisualStyleBackColor = true;
+            this.Permutasyon_Hesaplama.Click += new System.EventHandler(this.Permutasyon_Hesaplama_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Permutasyon_Hesaplama);
             this.Controls.Add(this.btn_KombinasyonHesaplama);
             this.Controls.Add(this.btn_ikinci_dereceden_denklem);
             this.Name = "AnaForm";
@@ -71,6 +83,7 @@ namespace Matematiksel_Islemler_Projesi
 
         private System.Windows.Forms.Button btn_ikinci_dereceden_denklem;
         private System.Windows.Forms.Button btn_KombinasyonHesaplama;
+        private System.Windows.Forms.Button Permutasyon_Hesaplama;
     }
 }
 
