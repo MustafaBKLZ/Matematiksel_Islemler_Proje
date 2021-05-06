@@ -18,9 +18,9 @@ namespace Matematiksel_Islemler_Projesi
 
         private void fibonacci_Load(object sender, EventArgs e)
         {
-               
-        }
 
+        }
+        // 
         int Fibonacci_Hesapla(int sayi)
         {
             if (sayi < 1)
@@ -33,10 +33,10 @@ namespace Matematiksel_Islemler_Projesi
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox2.Text = "";
             try
             {
-                textBox2.Text = "";
-                textBox2.Text += Fibonacci_Hesapla(Convert.ToInt32(textBox1.Text));
+                textBox2.Text += Fibonacci_Hesapla(Convert.ToInt32(textBox1.Text)).ToString() + Environment.NewLine;
             }
             catch
             {

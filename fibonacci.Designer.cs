@@ -34,12 +34,13 @@ namespace Matematiksel_Islemler_Projesi
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(278, 24);
+            this.label2.Location = new System.Drawing.Point(279, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 13);
             this.label2.TabIndex = 7;
@@ -47,7 +48,7 @@ namespace Matematiksel_Islemler_Projesi
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(188, 19);
+            this.button1.Location = new System.Drawing.Point(189, 33);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -57,7 +58,7 @@ namespace Matematiksel_Islemler_Projesi
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(71, 20);
+            this.textBox1.Location = new System.Drawing.Point(72, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 5;
@@ -65,7 +66,7 @@ namespace Matematiksel_Islemler_Projesi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Location = new System.Drawing.Point(13, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 4;
@@ -73,17 +74,27 @@ namespace Matematiksel_Islemler_Projesi
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(52, 64);
+            this.textBox2.Location = new System.Drawing.Point(72, 62);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(436, 155);
             this.textBox2.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(268, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Kaçıncı sıradaki fibonacci değerini görmek istiyorsunuz?";
             // 
             // fibonacci
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(581, 231);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
@@ -104,5 +115,6 @@ namespace Matematiksel_Islemler_Projesi
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
     }
 }
