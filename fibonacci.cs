@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-
 namespace Matematiksel_Islemler_Projesi
 {
     public partial class fibonacci : Form
@@ -15,12 +8,10 @@ namespace Matematiksel_Islemler_Projesi
         {
             InitializeComponent();
         }
-
         private void fibonacci_Load(object sender, EventArgs e)
         {
-
+            label3.Text = "Kaçıncı sıradaki fibonacci değerini görmek istiyorsunuz?";
         }
-        // 
         int Fibonacci_Hesapla(int sayi)
         {
             if (sayi < 1)
@@ -30,7 +21,6 @@ namespace Matematiksel_Islemler_Projesi
             else
                 return Fibonacci_Hesapla(sayi - 1) + Fibonacci_Hesapla(sayi - 2);
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             textBox2.Text = "";
