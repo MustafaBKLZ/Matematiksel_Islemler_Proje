@@ -46,9 +46,16 @@ namespace Matematiksel_Islemler_Projesi
             }
             else
             {
+
+
                 list_sonuc.Items.Add("Sanal Kök Vardır");
+
             }
         }
+
+
+
+
 
         private void txt_a_Leave(object sender, EventArgs e)
         {
