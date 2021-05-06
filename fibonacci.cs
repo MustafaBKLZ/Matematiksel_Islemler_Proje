@@ -18,7 +18,7 @@ namespace Matematiksel_Islemler_Projesi
 
         private void fibonacci_Load(object sender, EventArgs e)
         {
-
+               
         }
 
         int Fibonacci_Hesapla(int sayi)

@@ -73,7 +73,7 @@ namespace Matematiksel_Islemler_Projesi
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(71, 64);
+            this.textBox2.Location = new System.Drawing.Point(52, 64);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(436, 155);
